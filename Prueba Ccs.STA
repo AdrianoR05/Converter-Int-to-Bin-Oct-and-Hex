@@ -1,0 +1,77 @@
+
+ROM used:   5002/32768 (15%)
+            5002/32768 (15%) including unused fragments
+
+            1.2 Average locations per line
+            6.5 Average locations per statement
+
+RAM used:   227/2048 (11%) at main() level
+            398/2048 (19%) worst case
+
+Stack used: 0 worst case (0 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  253   132  17  Prueba Ccs.c
+  865     0   0  ..\..\..\..\Program Files (x86)\PICC\Devices\18f4550.h
+  357    76  10  ..\..\..\..\Program Files (x86)\PICC\Drivers\hdm64gs12.c
+  555   163  21  ..\..\..\..\Program Files (x86)\PICC\Drivers\graphics.c
+  150    43   6  kbd4x4.c
+   37     0   0  ..\..\..\..\Program Files (x86)\PICC\Drivers\stdio.h
+  435     0   0  ..\..\..\..\Program Files (x86)\PICC\Drivers\string.h
+   32     0   0  ..\..\..\..\Program Files (x86)\PICC\Drivers\stddef.h
+   28     0   0  ..\..\..\..\Program Files (x86)\PICC\Drivers\ctype.h
+ 1352   359  46  ..\..\..\..\Program Files (x86)\PICC\Drivers\stdlib.h
+----- -----
+ 4064   773 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     40   0    1             @delay_ms1
+0    168   2    1    555  3.4  glcd_init
+0    238   2    7    779  7.2  glcd_pixel
+0    134   1    4    506  4.8  glcd_fillScreen
+0     56   1    2    307  2.8  glcd_writeByte
+0     58   1    2    318  2.8  glcd_readByte
+0    272   3    0             @const722
+0    236   2    0             @const726
+0     80   1    2             @MUL88
+0    406   4   20   1609 11.6  glcd_text57
+0     32   0    0             @const802
+0      4   0    0      3  0.0  kbd_init
+0    206   2    4   6022 11.0  kbd_getc
+0     34   0    0             @goto39298
+0     56   1    5    129  4.6  strlen
+0    404   4    9   1815 10.5  atoi
+0    120   1    7    488 10.0  readInput
+0    150   1   28    584  9.2  decimal_binary
+0    156   2   28    584  9.2  decimal_octal
+0    244   2   45    618  8.7  decimal_hexadecimal
+0    538   5  128   1173  3.7  decToBinOctHex
+0    138   1   10    316  6.5  binaryToGray
+0    158   2    9    387  6.5  grayToBinary
+0    266   3   69    488  3.5  convertBinToGray
+0    262   3   68    488  3.5  convertGrayToBin
+0    542   5    1   1370  6.4  MAIN
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               20
+    Statements              773
+    Comments                957
+    Volume (V)              28909
+    Difficulty (D)          125.2
+    Effort to implement (E) 3620343
+    Time to implement (T)   55 hours, 52 minutes
+    Est Delivered Bugs (B)  8
+    Cyclomatic Complexity   56
+    Maintainability (MI)    25
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-07FFE  4998  27766  
+
+
+

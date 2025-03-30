@@ -1,0 +1,117 @@
+ÀÄPrueba Ccs
+   ÀÄMAIN  0/542  Ram=1
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄ@cinit2  (Inline)  Ram=0
+      ÃÄkbd_init  0/4  Ram=0
+      ÃÄglcd_init  0/168  Ram=1
+      ³  ÃÄglcd_writeByte  0/56  Ram=2
+      ³  ÃÄglcd_writeByte  0/56  Ram=2
+      ³  ÃÄglcd_writeByte  0/56  Ram=2
+      ³  ÃÄglcd_writeByte  0/56  Ram=2
+      ³  ÃÄglcd_writeByte  0/56  Ram=2
+      ³  ÃÄglcd_writeByte  0/56  Ram=2
+      ³  ÃÄglcd_writeByte  0/56  Ram=2
+      ³  ÃÄglcd_writeByte  0/56  Ram=2
+      ³  ÃÄglcd_writeByte  0/56  Ram=2
+      ³  ÃÄglcd_writeByte  0/56  Ram=2
+      ³  ÀÄglcd_fillScreen  0/134  Ram=4
+      ³     ÃÄglcd_writeByte  0/56  Ram=2
+      ³     ÃÄglcd_writeByte  0/56  Ram=2
+      ³     ÃÄglcd_writeByte  0/56  Ram=2
+      ³     ÃÄglcd_writeByte  0/56  Ram=2
+      ³     ÃÄglcd_writeByte  0/56  Ram=2
+      ³     ÀÄglcd_writeByte  0/56  Ram=2
+      ÃÄglcd_fillScreen  0/134  Ram=4
+      ³  ÀÄ*
+      ÃÄglcd_fillScreen  0/134  Ram=4
+      ³  ÀÄ*
+      ÃÄglcd_text57  0/406  Ram=20
+      ³  ÃÄ@const722  0/272  Ram=0
+      ³  ÃÄ@const726  0/236  Ram=0
+      ³  ÀÄglcd_pixel  0/238  Ram=7
+      ³     ÃÄglcd_writeByte  0/56  Ram=2
+      ³     ÃÄglcd_writeByte  0/56  Ram=2
+      ³     ÃÄglcd_readByte  0/58  Ram=2
+      ³     ÃÄglcd_readByte  0/58  Ram=2
+      ³     ÃÄglcd_writeByte  0/56  Ram=2
+      ³     ÀÄglcd_writeByte  0/56  Ram=2
+      ÃÄglcd_text57  0/406  Ram=20
+      ³  ÀÄ*
+      ÃÄglcd_text57  0/406  Ram=20
+      ³  ÀÄ*
+      ÃÄglcd_text57  0/406  Ram=20
+      ³  ÀÄ*
+      ÃÄkbd_getc  0/206  Ram=4
+      ³  ÃÄ@goto39298  0/34  Ram=0
+      ³  ÀÄ@const802  0/32  Ram=0
+      ÃÄglcd_fillScreen  0/134  Ram=4
+      ³  ÀÄ*
+      ÃÄglcd_text57  0/406  Ram=20
+      ³  ÀÄ*
+      ÃÄdecToBinOctHex  0/538  Ram=128
+      ³  ÃÄglcd_text57  0/406  Ram=20
+      ³  ³  ÀÄ*
+      ³  ÃÄreadInput  0/120  Ram=7
+      ³  ³  ÃÄkbd_getc  0/206  Ram=4
+      ³  ³  ³  ÀÄ*
+      ³  ³  ÀÄglcd_text57  0/406  Ram=20
+      ³  ³     ÀÄ*
+      ³  ÃÄatoi  0/404  Ram=9
+      ³  ³  ÀÄ@MUL88  0/80  Ram=2
+      ³  ÃÄdecimal_binary  0/150  Ram=28
+      ³  ÃÄdecimal_octal  0/156  Ram=28
+      ³  ÃÄdecimal_hexadecimal  0/244  Ram=45
+      ³  ÃÄglcd_fillScreen  0/134  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄglcd_text57  0/406  Ram=20
+      ³  ³  ÀÄ*
+      ³  ÃÄglcd_text57  0/406  Ram=20
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/40  Ram=1
+      ³  ÃÄglcd_text57  0/406  Ram=20
+      ³  ³  ÀÄ*
+      ³  ÃÄglcd_text57  0/406  Ram=20
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/40  Ram=1
+      ³  ÃÄglcd_text57  0/406  Ram=20
+      ³  ³  ÀÄ*
+      ³  ÃÄglcd_text57  0/406  Ram=20
+      ³  ³  ÀÄ*
+      ³  ÀÄ@delay_ms1  0/40  Ram=1
+      ÃÄ@delay_ms1  0/40  Ram=1
+      ÃÄglcd_fillScreen  0/134  Ram=4
+      ³  ÀÄ*
+      ÃÄglcd_text57  0/406  Ram=20
+      ³  ÀÄ*
+      ÃÄconvertBinToGray  0/266  Ram=69
+      ³  ÃÄglcd_text57  0/406  Ram=20
+      ³  ³  ÀÄ*
+      ³  ÃÄreadInput  0/120  Ram=7
+      ³  ³  ÀÄ*
+      ³  ÃÄstrlen  0/56  Ram=5
+      ³  ÃÄbinaryToGray  0/138  Ram=10
+      ³  ÃÄglcd_fillScreen  0/134  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄglcd_text57  0/406  Ram=20
+      ³  ³  ÀÄ*
+      ³  ÀÄglcd_text57  0/406  Ram=20
+      ³     ÀÄ*
+      ÃÄ@delay_ms1  0/40  Ram=1
+      ÃÄglcd_fillScreen  0/134  Ram=4
+      ³  ÀÄ*
+      ÃÄglcd_text57  0/406  Ram=20
+      ³  ÀÄ*
+      ÃÄconvertGrayToBin  0/262  Ram=68
+      ³  ÃÄglcd_text57  0/406  Ram=20
+      ³  ³  ÀÄ*
+      ³  ÃÄreadInput  0/120  Ram=7
+      ³  ³  ÀÄ*
+      ³  ÃÄstrlen  0/56  Ram=5
+      ³  ÃÄgrayToBinary  0/158  Ram=9
+      ³  ÃÄglcd_fillScreen  0/134  Ram=4
+      ³  ³  ÀÄ*
+      ³  ÃÄglcd_text57  0/406  Ram=20
+      ³  ³  ÀÄ*
+      ³  ÀÄglcd_text57  0/406  Ram=20
+      ³     ÀÄ*
+      ÀÄ@delay_ms1  0/40  Ram=1

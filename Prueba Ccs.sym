@@ -1,0 +1,240 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     kbd_getc.kbd_call_count
+005.0   kbd_getc.kbd_down
+006     kbd_getc.last_key
+007     kbd_getc.col
+008-009 strtok.save
+00A-00D _Randseed
+00E-021 prueba
+022-023 numEnt
+024-037 num
+038     num1
+039     num2
+03A     num3
+03B     num4
+03C     numU
+03D     numD
+03E     numT
+03F     numC
+040     choice
+041     val
+042-069 textTitle
+06A-091 textDec
+092-0B9 textBin
+0BA-0E1 textGray
+0E2-0F5 decToBinOctHex.input
+0E2     glcd_init.mode
+0E2-0F5 convertGrayToBin.gray
+0E2-0F5 convertBinToGray.bin
+0E2     MAIN.@SCRATCH1
+0F6-109 convertGrayToBin.bin
+0F6-109 decToBinOctHex.bin
+0F6-109 convertBinToGray.gray
+10A-117 convertGrayToBin.@STRING1172
+10A-11A convertBinToGray.@STRING1162
+10A-11D decToBinOctHex.oct
+118-124 convertGrayToBin.@STRING1175
+11B-125 convertBinToGray.@STRING1165
+11E-131 decToBinOctHex.hex
+125     convertGrayToBin.n
+126-127 grayToBinary.gray
+126     convertBinToGray.n
+127-128 binaryToGray.bin
+127-128 strlen.s
+128-129 grayToBinary.bin
+129-12A strlen.sc
+129-12A binaryToGray.gray
+12A     grayToBinary.n
+12B     binaryToGray.n
+12B     grayToBinary.i
+12B     strlen.@SCRATCH1
+12C     binaryToGray.i
+12C     grayToBinary.@SCRATCH1
+12D     binaryToGray.@SCRATCH1
+12D     grayToBinary.@SCRATCH2
+12E     binaryToGray.@SCRATCH2
+12E     grayToBinary.@SCRATCH3
+12F     binaryToGray.@SCRATCH3
+130     binaryToGray.@SCRATCH4
+132-142 decToBinOctHex.@STRING1132
+143-14B decToBinOctHex.@STRING1135
+14C-152 decToBinOctHex.@STRING1138
+153-15F decToBinOctHex.@STRING1141
+160     decToBinOctHex.numEnt
+161-162 readInput.input
+161-162 atoi.s
+161     decimal_octal.num
+161     decimal_binary.num
+161     decimal_hexadecimal.num
+161     glcd_fillScreen.color
+161     decToBinOctHex.@SCRATCH1
+162-163 decimal_hexadecimal.hex
+162     @delay_ms1.P1
+162-163 decimal_binary.bin
+162     glcd_fillScreen.i
+162-163 decimal_octal.oct
+163     atoi.result
+163     glcd_fillScreen.j
+163     readInput.maxLength
+164     atoi.sign
+164     decimal_hexadecimal.i
+164     decimal_binary.i
+164     readInput.key
+164     decimal_octal.i
+164     glcd_fillScreen.@SCRATCH1
+165     readInput.index
+165     decimal_binary.j
+165     decimal_octal.j
+165     atoi.base
+165     decimal_hexadecimal.j
+166-179 decimal_hexadecimal.temp
+166-179 decimal_octal.temp
+166-179 decimal_binary.temp
+166     kbd_getc.kchar
+166     atoi.index
+166     readInput.@SCRATCH1
+167     glcd_text57.x
+167     kbd_getc.row
+167     atoi.c
+167     readInput.@SCRATCH2
+168     @MUL88.P1
+168     glcd_text57.y
+168     kbd_getc.@SCRATCH1
+168     atoi.@SCRATCH1
+169-16A glcd_text57.textptr
+169     @MUL88.P1
+169     kbd_getc.@SCRATCH2
+169     atoi.@SCRATCH2
+16B     glcd_text57.size
+16C     glcd_text57.color
+16D     glcd_text57.j
+16E     glcd_text57.k
+16F     glcd_text57.l
+170     glcd_text57.m
+171-175 glcd_text57.pixelData
+176     glcd_text57.@SCRATCH1
+177     glcd_text57.@SCRATCH2
+178     glcd_pixel.x
+178     glcd_text57.@SCRATCH3
+179     glcd_pixel.y
+179     glcd_text57.@SCRATCH4
+17A     glcd_pixel.color
+17A-18A decimal_hexadecimal.hex_chars
+17A     glcd_text57.@SCRATCH5
+17A     decimal_binary.@SCRATCH1
+17A     decimal_octal.@SCRATCH1
+17B     glcd_pixel.data
+17B     decimal_binary.@SCRATCH2
+17B     decimal_octal.@SCRATCH2
+17C.0   glcd_pixel.side
+17C     decimal_binary.@SCRATCH3
+17C     decimal_octal.@SCRATCH3
+17D     glcd_pixel.@SCRATCH1
+17E     glcd_readByte.side
+17E     glcd_pixel.@SCRATCH2
+17F     glcd_writeByte.side
+17F     glcd_readByte.data
+180     glcd_writeByte.data
+18B     decimal_hexadecimal.@SCRATCH1
+18C     decimal_hexadecimal.@SCRATCH2
+18D     decimal_hexadecimal.@SCRATCH3
+F81     kbd
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P1
+FE9-FEA @READ_PROGRAM_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P3
+FE9-FEA @WRITE_PROGRAM_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  FONT.call
+000014  FONT.data
+000114  FONT2.call
+000124  FONT2.data
+000200  KEYS.call
+000210  KEYS.data
+000220  kbd_init
+000224  glcd_writeByte
+00025C  glcd_fillScreen
+0002E2  glcd_init
+00038A  glcd_readByte
+0003C4  glcd_pixel
+0004B2  glcd_text57
+000648  kbd_getc
+000716  @goto39298
+000738  readInput
+0007B0  @MUL88
+000800  atoi
+000994  decimal_binary
+000A2A  decimal_octal
+000AC6  decimal_hexadecimal
+000BBA  @delay_ms1
+000BE2  decToBinOctHex
+000DFC  strlen
+000E34  binaryToGray
+000EBE  convertBinToGray
+000FC8  grayToBinary
+001066  convertGrayToBin
+00116C  @cinit1
+00116C  MAIN
+00117C  @cinit2
+0135  StrtoulGO
+0135  StrtolGO
+
+Project Directory:
+    C:\Users\titor\Downloads\Proy SD\
+
+Project Files:
+    Prueba Ccs.c                                            [09-Dec-24 23:27  CRC=C8EA870E]
+    ..\..\..\..\Program Files (x86)\PICC\Devices\18f4550.h  [21-Feb-20 15:51  CRC=0BC0B1A1]
+    ..\..\..\..\Program Files (x86)\PICC\Drivers\hdm64gs12.c [09-Dec-24 11:57  CRC=4BD9BF71]
+    ..\..\..\..\Program Files (x86)\PICC\Drivers\graphics.c [19-Dec-19 09:59  CRC=EBF6013D]
+    kbd4x4.c                                                [08-Dec-24 23:45  CRC=4DD3C140]
+    ..\..\..\..\Program Files (x86)\PICC\Drivers\stdio.h    [31-Jul-07 14:24  CRC=4E4534F4]
+    ..\..\..\..\Program Files (x86)\PICC\Drivers\string.h   [04-Dec-19 10:56  CRC=428BEDCB]
+    ..\..\..\..\Program Files (x86)\PICC\Drivers\stddef.h   [30-Jan-19 11:26  CRC=897CEC6C]
+    ..\..\..\..\Program Files (x86)\PICC\Drivers\ctype.h    [03-Jan-08 14:55  CRC=2D1F019F]
+    ..\..\..\..\Program Files (x86)\PICC\Drivers\stdlib.h   [29-Mar-19 12:31  CRC=99D16202]
+
+Source signature=D55E8F6B
+Program memory checksum=0000
+Hex file CRC=329A
+
+Units:
+    C:\Users\titor\Downloads\Proy SD\Prueba Ccs (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   Prueba Ccs.xsym
+    Errors:      Prueba Ccs.err
+    Ext Symbols: Prueba Ccs.esym
+    INHX32:      Prueba Ccs.hex
+    Symbols:     Prueba Ccs.sym
+    List:        Prueba Ccs.lst
+    Debug/COFF:  Prueba Ccs.cof
+    Project:     Prueba Ccs.ccspjt
+    Call Tree:   Prueba Ccs.tre
+    Statistics:  Prueba Ccs.STA
