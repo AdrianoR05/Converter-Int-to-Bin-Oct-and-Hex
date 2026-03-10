@@ -1,8 +1,3 @@
-<div align="center">
-  <a href="#english-version">🇺🇸 English</a> | <a href="#versión-en-español">🇪🇸 Español</a>
-</div>
-
----
 
 # 🇺🇸 English Version
 
